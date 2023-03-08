@@ -13,6 +13,166 @@ html {
      scroll-behavior: smooth;
 }
 
+.spinner-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+    z-index: 300;
+}
+
+.display .spinner-container {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.display .container {
+    display: block;
+}
+
+.circles {
+    width: 8rem;
+    height: 8rem;
+    position: relative;
+    opacity: 0;
+    visibility: hidden;
+    animation: displayCircles 4s;
+}
+
+@keyframes displayCircles {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    25%{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    90% {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    100% {
+        opacity: 0;
+        visibility: visible;
+    }
+}
+
+.circles div {
+    animation: circles 1.2s cubic-bezier(.5, 0, .5, 1) infinite;
+    transform-origin: 4rem 4rem;
+}
+
+.circles div:nth-child(1){
+    animation-delay: -0.036s;
+}
+
+.circles div:nth-child(2){
+    animation-delay: -0.072s;
+}
+
+.circles div:nth-child(3){
+    animation-delay: -0.108s;
+}
+
+.circles div:nth-child(4){
+    animation-delay: -0.144s;
+}
+
+.circles div:nth-child(5){
+    animation-delay: -0.18s;
+}
+
+.circles div:nth-child(6){
+    animation-delay: -0.216s;
+}
+
+.circles div:nth-child(7){
+    animation-delay: -0.252s;
+}
+
+.circles div:nth-child(8){
+    animation-delay: -0.288s;
+}
+
+.circles div::after {
+    content: "";
+    position: absolute;
+    width: .7rem;
+    height: .7rem;
+    border-radius: 50%;
+    background-color: #c29525;
+    margin: -.4rem 0 -.4rem 0;
+}
+
+.circles div:nth-child(1)::after {
+    top: 6.3rem;
+    left: 6.3rem;
+    animation-delay: 0;
+    
+}
+
+.circles div:nth-child(2)::after {
+    top: 6.8rem;
+    left: 5.6rem;
+    animation-delay: .4s;
+}
+
+.circles div:nth-child(3)::after {
+    top: 7.1rem;
+    left: 4.8rem;
+    animation-delay: .8s;
+}
+
+.circles div:nth-child(4)::after {
+    top: 7.2rem;
+    left: 4rem;
+    animation-delay: 1.2s;
+}
+
+.circles div:nth-child(5)::after {
+    top: 7.1rem;
+    left: 3.2rem;
+}
+
+.circles div:nth-child(6)::after {
+    top: 6.8rem;
+    left: 2.4rem;
+}
+
+.circles div:nth-child(7)::after {
+    top: 6.3rem;
+    left: 1.7rem;
+}
+
+.circles div:nth-child(8)::after {
+    top: 5.6rem;
+    left: 1.2rem;
+}
+
+@keyframes circles {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.container {
+    display: none;
+}
+
 body::-webkit-scrollbar {
     width: 1em;
 }
