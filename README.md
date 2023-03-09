@@ -68,13 +68,11 @@ To see how you can add code snippets, see below:
 const proudOfThisFunc = () => {
   console.log('🎉')
 } -->
-```
 
 ### Continued development
 
-```
-Going forward, I'll be working on more animated, responsive, dynamic and interactive websites with vanilla CSS and other CSS & JS Libraries.
-```
+{ Going forward, I'll be working on more animated, responsive, dynamic and interactive websites with vanilla CSS and other CSS & JS Libraries. }
+
 
 
 ### Useful resources
