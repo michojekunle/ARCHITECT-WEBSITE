@@ -791,6 +791,8 @@ footer {
     border-radius: .3rem;
 }
 
+
+/* ********************* MEDIA QUERIES *********************** */
 @media screen and (min-width: 1500px) {
     .about-us-img-wrapper {
         grid-row: 3 / -1;
