@@ -72,7 +72,9 @@ const proudOfThisFunc = () => {
 
 ### Continued development
 
-```Going forward, I'll be working on more animated, responsive, dynamic and interactive websites with vanilla CSS and other CSS & JS Libraries.```
+```
+Going forward, I'll be working on more animated, responsive, dynamic and interactive websites with vanilla CSS and other CSS & JS Libraries.
+```
 
 
 ### Useful resources
