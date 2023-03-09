@@ -1,6 +1,6 @@
 # ARCHITECT-WEBSITE
 
-This is a CSS Challenge project.
+This is a CSS(Responsive Design) Challenge project.
 
 ## Table of contents
 
