@@ -51,8 +51,6 @@ In the course of this Project as Interesting and Refreshing as it was, I grabbed
 - Effectively Building Responsive websites and apps with vanilla css.
 - Utilizing Vanilla-tilt.js to add interesing tilt effects to the teams section of the project. 
 
-To see how you can add code snippets, see below:
-
 ```html
   <a href='#' data-content='home'></a>
   <div class="card" data-tilt-glare data-tilt-max-glare="0.8"></div>
