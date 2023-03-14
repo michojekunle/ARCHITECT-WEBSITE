@@ -708,6 +708,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 1.8rem;
     color: #4b4b4b;
     text-transform: uppercase;
+    transform: translateY(0);
     pointer-events: none;
     transition: all .3s;
 }
